@@ -1,0 +1,85 @@
+body{
+    background: url(../images/background.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header{
+    background-color: #007bff;
+    height: 40px;
+    padding: 3px 3px 0 3px;
+}
+
+h1{
+    font-size: 14px;
+    color: white;
+}
+
+img {
+    height: 35px;
+}
+
+.content-section {
+    padding-top: 50px;
+}
+
+footer a span {
+    display: none;
+}
+footer a {
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    background-image: url("../images/wizard.png");
+    background-size: contain;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+.list.list-bullets {
+    list-style-type: disc;
+}
+
+.list.list-horizontal {
+    padding: 0;
+}
+
+.list.list-horizontal li {
+    display: inline-block;
+    list-style-position: inherit;
+}
+
+.list-education {
+    margin: 15px 0;
+}
+
+.box {
+    height: 350px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background: rgb(248, 249, 250);
+}
+
+.box h2 {
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+    margin-bottom: 8px;
+
+}
+
+.box-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+label input {
+    margin: 0 5px;
+}
